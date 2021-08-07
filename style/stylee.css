@@ -1,0 +1,173 @@
+    #homeSection {
+        background: url('/images/pic.jpg')center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: -22px;
+        color: white;
+        padding-bottom: 350px;
+    }
+    
+    .navbar {
+        padding: 20px;
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        overflow: hidden;
+    }
+    
+    .nav {
+        float: right;
+    }
+    
+    #btn {
+        width: 200px;
+        height: 45px;
+        border-radius: 20px;
+        background-color: orange;
+        font-size: 20px;
+    }
+    
+    .content {
+        padding: 220px;
+    }
+    
+    .content h1 {
+        font-size: 60px;
+    }
+    
+    .content p {
+        font-size: 20px;
+    }
+    
+    .serviceHead {
+        padding: 70px;
+    }
+    
+    #navh {
+        color: orange;
+    }
+    
+    .Services {
+        padding: 40px;
+        background-color: #F5F5F5;
+    }
+    
+    .contain {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .serviceHead p {
+        background-color: white;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    
+    .ct {
+        background-color: #F5F5F5;
+        padding: 60px;
+    }
+    
+    .contain1 {
+        background-color: white;
+        padding: 40px;
+    }
+    
+    .lists ul {
+        list-style: none;
+    }
+    
+    .lists ul li::before {
+        content: "\2022";
+        color: rgba(153, 104, 12, 0.719);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    
+    .lists ul li:hover {
+        font-size: 18px;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+    
+    .fcontact {
+        line-height: 50px;
+    }
+    
+    .fa {
+        color: rgb(51, 51, 51);
+        border: 1px solid rgb(51, 51, 51);
+        padding: 10px;
+        margin: 3px;
+    }
+    
+    .fa:hover {
+        color: yellow;
+        background-color: rgb(51, 51, 51);
+    }
+    
+    .staffs {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .tc {
+        background-color: red;
+    }
+    
+    .row img {
+        width: 400px;
+        height: 190px;
+    }
+    
+    .col {
+        padding-bottom: 14px;
+    }
+    
+    .gal {
+        text-align: center;
+    }
+    
+    .serviceHead {
+        text-align: center;
+    }
+    
+    .services span {
+        font-size: 26px;
+    }
+    
+    .content {
+        -moz-animation-duration: 3s;
+        -webkit-animation-duration: 3s;
+        -moz-animation-name: slidein;
+        -webkit-animation-name: slidein;
+    }
+    
+    @-moz-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    @-webkit-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }

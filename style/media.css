@@ -1,0 +1,98 @@
+    @media screen and (max-width: 775px) {
+        .nav {
+            text-align: center;
+        }
+        #row3 {
+            display: none;
+        }
+        #homeSection {
+            padding-bottom: 70px;
+        }
+        .content {
+            padding: 75px;
+            padding-top: 110px;
+        }
+        .content h1 {
+            font-size: 25px;
+        }
+        .content p {
+            font-size: 13px;
+        }
+        #btn {
+            width: 140px;
+            height: 30px;
+            border-radius: 20px;
+            background-color: orange;
+            font-size: 15px;
+        }
+        .serviceHead {
+            padding: 15px;
+        }
+        .navbar {
+            text-align: center;
+        }
+    }
+    
+    @media screen and (min-width: 775px)and (max-width:1000px) {
+        #homeSection {
+            padding-bottom: 10px;
+        }
+        .nav {
+            float: right;
+        }
+        .content {
+            padding: 120px;
+            padding-top: 180px;
+        }
+        .content h1 {
+            font-size: 40px;
+        }
+        .content p {
+            font-size: 15px;
+        }
+        #btn {
+            width: 170px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: orange;
+            font-size: 15px;
+        }
+        .serviceHead {
+            padding: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 1000px) and (max-width: 1400px) {
+        .nav {
+            float: right;
+        }
+        #homeSection {
+            padding-bottom: 70px;
+        }
+        .content {
+            padding: 140px;
+            padding-top: 160px;
+        }
+        .content h1 {
+            font-size: 45px;
+        }
+        .content p {
+            font-size: 18px;
+        }
+        #btn {
+            width: 190px;
+            height: 45px;
+            border-radius: 20px;
+            background-color: orange;
+            font-size: 15px;
+        }
+        .serviceHead {
+            padding: 25px;
+        }
+    }
+    
+    @media screen and (min-width: 1400px) and (max-width: 1800px) {
+        #homeSection {
+            padding-bottom: 150px;
+        }
+    }
